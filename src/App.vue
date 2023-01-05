@@ -25,7 +25,7 @@
 
 <style scoped>
   .links {
-    @apply flex space-x-28 text-gray-500;
+    @apply space-x-28 text-gray-500 hidden lg:flex;
   }
 
   .link-item {
@@ -37,6 +37,6 @@
 
   .links .router-link-active::before {
     content: '';
-    @apply absolute top-6 left-0 w-2 h-2 translate-x-[200%] bg-accent rounded-full;
+    @apply absolute top-7 left-1/2 w-2 h-2 -translate-x-1/2 bg-accent rounded-full;
   }
 </style>
