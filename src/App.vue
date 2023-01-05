@@ -3,7 +3,7 @@
 </script>
 
 <template>
-  <header class="bg-white w-full py-4 shadow-md h-[10vh]">
+  <header class="bg-white w-full py-4 shadow-2xl z-10 relative">
     <div class="flex justify-between items-center container mx-auto">
       <RouterLink to="/">
         <Logo />
