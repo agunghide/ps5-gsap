@@ -3,6 +3,8 @@
     import RectangleRight from '@/components/RectangleRight.vue'
     import RectangleLeft from '@/components/RectangleLeft.vue'
     import DotsElement from '@/components/DotsElement.vue'
+    import GamepadButtonsRight from '@/components/GamepadButtonsRight.vue'
+    import GamepadButtonsLeft from '@/components/GamepadButtonsLeft.vue'
     import gsap from 'gsap'
     import { ScrollTrigger } from "gsap/ScrollTrigger";
 
@@ -31,6 +33,8 @@
                     .to("#left-rectangle", {y: -500}, "<+0.1")
                     .to("#right-rectangle", {y: -500}, "<")
                     .to("#dots-element-middle-right", {y: 250, x: 30}, "<")
+                    .to("#gamepad-buttons-right", {opacity: 0}, "<+0.2")
+                    .to("#gamepad-buttons-left", {x: -300, opacity: 0}, "<")
                     .to("#section2", {y: 0, opacity: 1})
                     .to("#controller-image", {y : -innerHeight + 110, scale: 0.8, ease: "power1.in"})
                     .to("#section2", {opacity: 0}, "<")
@@ -43,7 +47,9 @@
             ControllerImage,
             RectangleRight,
             RectangleLeft,
-            DotsElement
+            DotsElement,
+            GamepadButtonsRight,
+            GamepadButtonsLeft
         },
         mounted() {
             this.scroll();
@@ -61,6 +67,9 @@
             <DotsElement id="dots-element-middle-right" class="absolute top-64 right-96 drop-shadow-2xl"/>
             <DotsElement id="dots-element-middle-left" class="absolute top-28 left-96 drop-shadow-2xl"/>
             <DotsElement id="dots-element-left" class="absolute bottom-32 -left-16 drop-shadow-2xl"/>
+            
+            <GamepadButtonsRight id="gamepad-buttons-right" class="absolute bottom-14 -right-20 drop-shadow-2xl"/>
+            <GamepadButtonsLeft id="gamepad-buttons-left" class="absolute -bottom-2 -left-4 drop-shadow-2xl"/>
 
             <ControllerImage id="controller-image" class="absolute top-full left-1/2 -translate-x-1/2 -translate-y-1/2 scale-90"/>
         </div>
@@ -70,7 +79,7 @@
                     Are You Ready To Play The Game?
                 </h1>
                 <p class="text-gray-500 text-xl font-semibold mb-8">
-                    The next generations of players begin with Play Station 5
+                    The next generations of players begin with Playstation 5
                 </p>
                 <p class="text-accent text-lg font-bold">
                     DISCOVER
