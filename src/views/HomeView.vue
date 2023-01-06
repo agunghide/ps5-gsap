@@ -77,37 +77,33 @@
 
             <ControllerImage id="controller-image" class="absolute top-full left-1/2 -translate-x-1/2 -translate-y-[55%] scale-90"/>
         </div>
-        <section id="section1" class="h-screen">
-            <div class="text-center py-24 space-y-14">
-                <h1 class="text-black font-bold text-5xl max-w-[450px] mx-auto leading-tight tracking-wide">
-                    Are You Ready To Play The Game?
-                </h1>
-                <p class="text-gray-500 text-xl font-semibold">
-                    The next generations of players begin with Playstation 5
-                </p>
-                <p class="text-accent text-lg font-bold">
-                    DISCOVER
-                </p>
-            </div>
+        <section id="section1" class="h-screen text-center py-24 space-y-14">
+            <h2 class="text-black font-bold text-5xl max-w-[450px] mx-auto leading-tight tracking-wide">
+                Are You Ready To Play The Game?
+            </h2>
+            <p class="text-gray-500 text-xl font-semibold">
+                The next generations of players begin with Playstation 5
+            </p>
+            <p class="text-accent text-lg font-bold">
+                DISCOVER
+            </p>
         </section>
-        <section id="section2" class="h-screen">
-            <div class="text-center py-14">
-                <p class="text-gray-500 text-lg font-semibold mb-4">
-                    The Future of gaming in yout palm
-                </p>
-                <h1 class="text-black font-bold text-5xl mx-auto mb-8 leading-tight tracking-wide">
-                    Playstation 5 DualShock
-                </h1>
-            </div>
+        <section id="section2" class="h-screen text-center py-14">
+            <p class="text-gray-500 text-lg font-semibold mb-4">
+                The Future of gaming in yout palm
+            </p>
+            <h1 class="text-black font-bold text-5xl mx-auto mb-8 leading-tight tracking-wide">
+                Playstation 5 DualShock
+            </h1>
         </section>
         <section id="section3" class="h-screen">
             <div class="text-center py-14">
                 <p class="text-gray-500 text-lg font-semibold mb-4">
                     Evolve Your Experience Around
                 </p>
-                <h1 class="text-black font-bold text-5xl mx-auto mb-8 leading-tight tracking-wide">
+                <h2 class="text-black font-bold text-5xl mx-auto mb-8 leading-tight tracking-wide">
                     Latest Technologies
-                </h1>
+                </h2>
             </div>
             <div class="flex justify-between container mx-auto">
                 <div class="tooltips left">
